@@ -5,7 +5,7 @@ function App(){
   const[text,setText]=useState("Sanjith Hegde");
   const[video,setVideo]=useState([]);
   const getVideo=async()=>{
-  const res=await axios.post("http://localhost:5000/mood",
+  const res=await axios.post("https://youtube-recommendation-acc-to-mood-2.onrender.com/mood",
     {text:text});
     setVideo(res.data)
   }
