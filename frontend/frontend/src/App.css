@@ -1,0 +1,59 @@
+/* App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background: #2a74ac;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 100em;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  padding: 0.6rem 1rem;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.video {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: bisque;
+  border: 2px solid;
+  border-color: #45a049;
+}
+
+.video iframe {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}

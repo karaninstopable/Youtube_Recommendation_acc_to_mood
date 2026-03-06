@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "axios": "^1.13.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4",
+    "nodemon": "^3.1.14",
+    "sentiment": "^5.0.2"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Mood predictor and youtube suggestion",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "karaninstopable"
+  },
+  "author": "Karan Kumar.S",
+  "license": "MIT"
+}
